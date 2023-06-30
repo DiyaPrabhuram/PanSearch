@@ -1,6 +1,6 @@
 # PanSearch
 
-#Installation using conda
+# Installation using conda
 
 Clone this repo and run the following commands
 
@@ -8,7 +8,7 @@ Clone this repo and run the following commands
 
 `conda activate pansearch`
 
-# Arguments for the script
+# Usage
 
 Run the following command to view the help menu.
 
