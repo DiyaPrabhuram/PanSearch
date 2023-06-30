@@ -36,5 +36,5 @@ Default usage of the script containing only the required arguments will look lik
 
 # Output
 
-The script generates FASTA files containing the top hits for each query as a separate file for each genome. You can import them to geneious or any other alignment tool and perform multiple sequence alignments with them. There are also corresponding BED files and summary files for each FASTA file if you'd like more information on their identity and positional coordinates.
+The script generates FASTA files containing the top hits for each query as a separate file for each genome. You can import the files *forward_hits.fa and *reverse_hits.fa to geneious or any other visualisation tool and perform multiple sequence alignments with them. You might have to reverse complement the sequences in the *reverse.fa files. However, the *reverse_complemented.fa file contains reverse complemented sequences for convenience. There are also corresponding BED files for each FASTA file if you'd like more information on their positional coordinates. The *_out files give you information on the BLAST output whereas the *summary.txt files summarise the best hit for each query sequence.
 
